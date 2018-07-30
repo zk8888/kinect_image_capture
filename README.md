@@ -2,11 +2,11 @@
 Capture and save color, depth and point cloud images from Kinect V1.
 ## Preparation
 * Ubuntu14.04
-* [install ros](http://wiki.ros.org/indigo/Installation/Ubuntu)
+* [install ROS](http://wiki.ros.org/indigo/Installation/Ubuntu)
 * install OpenCV2.4.9
 * install PCL1.8
 
-Install with ros
+Install in ROS
 ```
 $ cd ~/catkin_ws/src 
 $ git clone https://github.com/zk8888/kinect_image_capture.git

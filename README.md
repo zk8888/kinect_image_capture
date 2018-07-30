@@ -1,5 +1,5 @@
 # kinect_image_capture
-kinect v1 序列彩色、深度、点云图像采集
+kinect v1 序列彩色、深度、点云图像采集与保存
 ## Preparation
 * Ubuntu14.04及以上
 * [安装ros](http://wiki.ros.org/indigo/Installation/Ubuntu)

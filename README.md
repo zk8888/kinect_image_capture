@@ -2,9 +2,9 @@
 Capture and save color, depth and point cloud images from Kinect V1.
 ## Preparation
 * Ubuntu 14.04
-* [install ROS](http://wiki.ros.org/indigo/Installation/Ubuntu)
-* install OpenCV 2.4.9
-* install PCL 1.8
+* [Install ROS](http://wiki.ros.org/indigo/Installation/Ubuntu)
+* Install OpenCV 2.4.9
+* Install PCL 1.8
 
 Install in ROS
 ```

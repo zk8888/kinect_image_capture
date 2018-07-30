@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: kinect_img_capture
-Description: Description of kinect_img_capture
-Version: 0.0.0
-Cflags: 
-Libs: -L/usr/local/lib 
-Requires: 

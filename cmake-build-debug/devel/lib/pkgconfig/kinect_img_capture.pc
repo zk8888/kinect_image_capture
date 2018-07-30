@@ -1,0 +1,8 @@
+prefix=/home/zk8888/catkin_ws/src/kinect_img_cap/cmake-build-debug/devel
+
+Name: kinect_img_capture
+Description: Description of kinect_img_capture
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zk8888/catkin_ws/src/kinect_img_cap/cmake-build-debug/devel/lib 
+Requires: 

@@ -1,0 +1,132 @@
+/home/zk8888/clion-2017.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zk8888/catkin_ws/src/kinect_img_cap
+-- Using CATKIN_DEVEL_PREFIX: /home/zk8888/catkin_ws/src/kinect_img_cap/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/zk8888/catkin_ws/devel;/opt/ros/indigo
+-- This workspace overlays: /home/zk8888/catkin_ws/devel;/opt/ros/indigo
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/zk8888/catkin_ws/src/kinect_img_cap/cmake-build-debug/test_results
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.6.19
+-- Using these message generators: gencpp;genlisp;genpy
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.2.0
+-- Eigen found (include: /usr/include/eigen3, version: 3.2.0)
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   date_time
+--   iostreams
+--   serialization
+--   chrono
+--   atomic
+--   regex
+-- Checking for module 'flann'
+--   Found flann, version 1.8.4
+-- FLANN found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp.so;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Checking for module 'flann'
+--   Found flann, version 1.8.4
+-- FLANN found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp.so;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.20
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.20
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.20
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.20
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- Found Glew: /usr/lib/x86_64-linux-gnu/libGLEW.so
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_2D
+-- looking for PCL_FEATURES
+-- looking for PCL_IO
+-- looking for PCL_GEOMETRY
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_ML
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_PEOPLE
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_SURFACE
+-- looking for PCL_SIMULATION
+-- looking for PCL_REGISTRATION
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_TRACKING
+-- looking for PCL_RECOGNITION
+-- looking for PCL_STEREO
+-- looking for PCL_GPU_CONTAINERS
+-- looking for PCL_GPU_UTILS
+-- looking for PCL_GPU_KINFU
+-- looking for PCL_GPU_OCTREE
+-- looking for PCL_GPU_FEATURES
+-- looking for PCL_GPU_SEGMENTATION
+-- looking for PCL_GPU_KINFU_LARGE_SCALE
+-- looking for PCL_CUDA_COMMON
+-- looking for PCL_CUDA_FEATURES
+-- looking for PCL_CUDA_SEGMENTATION
+-- looking for PCL_CUDA_SAMPLE_CONSENSUS
+-- Configuring done
+CMake Warning at CMakeLists.txt:138 (add_executable):
+  Cannot generate a safe linker search path for target kinect_img_capture
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    link library [libpcl_common.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_octree.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_io.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_kdtree.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_search.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_sample_consensus.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_filters.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_features.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_keypoints.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_segmentation.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_visualization.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_outofcore.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_registration.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_recognition.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_surface.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_people.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_tracking.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+    link library [libpcl_apps.so] in /usr/lib may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+-- Generating done
+-- Build files have been written to: /home/zk8888/catkin_ws/src/kinect_img_cap/cmake-build-debug

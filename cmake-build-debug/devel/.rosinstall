@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/zk8888/catkin_ws/src/kinect_img_cap/cmake-build-debug/devel/setup.sh

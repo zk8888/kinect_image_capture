@@ -24,6 +24,6 @@ $ rosrun kinect_img_capture kinect_img_capture your_save_path
 ```
 Click on the opened window and press any key to pause or continue recording images.
 ## Authors
-* **ZhangKai** - *Initial work* - ZhangKai
+* **Kai Zhang** - *Initial work* - Kai Zhang
 
 

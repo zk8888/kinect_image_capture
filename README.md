@@ -8,9 +8,18 @@ kinect v1 序列彩色、深度、点云图像采集与保存
 
 使用ros安装
 ```
-$ wget -P ~/catkin_ws/src 
-$ cd ~/catkin_ws
+$ cd ~/catkin_ws/src 
+$ git clone https://github.com/zk8888/kinect_image_capture.git
+$ cd ..
 $ catkin_make
 ```
 ## 使用示例
+打开终端1
+```
+$ roslaunch openni_launch openni.launch
+```
+打开终端2
+```
+$ rosrun kinect_img_capture kinect_img_capture your_save_path
+```
 

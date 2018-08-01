@@ -1,4 +1,5 @@
 # kinect_image_capture
+[![License](https://img.shields.io/packagist/l/doctrine/orm.svg)](LICENSE)
 Capture and save color, depth and point cloud images from Kinect V1.
 ## Preparation
 * Ubuntu 14.04
